@@ -194,7 +194,8 @@
                     </div>
 
 
-                  <div class="footer">
+                  <div>
+                    <br/>
                     <hr/>
                       <table style="width:100%">
                         <tr style="text-align:center">
@@ -208,7 +209,7 @@
                        <table style="width:100%">
                         <tr style="text-align:center">
                           <td><img src="/pkm/static/src/img/5.png" style="width:65%;"/></td>
-                          <td><img src="/pkm/static/src/img/6.jpg" style="width:60%;"/></td>
+                          <td><img src="/pkm/static/src/img/6.jpg" style="width:70%;"/></td>
                         </tr>
                       </table>
                   </div>
