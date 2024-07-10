@@ -1,0 +1,13 @@
+<odoo>
+    <data>
+        <record id="action_report_cotizacion_sale_order" model="ir.actions.report">
+            <field name="name">Cotización</field>
+            <field name="model">sale.order</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">pkm.cotizacion_sale_order</field>
+            <field name="report_file">pkm.cotizacion_sale_order</field>
+            <field name="binding_model_id" ref="sale.model_sale_order"/>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>
