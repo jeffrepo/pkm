@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_order_form_inherit" model="ir.ui.view">
+        <field name="name">sale.order.form.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <field name="user_id" position="after">
+                <field name="entrega_id" string="Entrega"/>
+                <field name="comentarios" string="Comentarios"/>
+                <field name="oferta_venta" string="Ofertas de ventas"/>
+            </field>
+        </field>
+    </record>
+</odoo>
