@@ -47,6 +47,16 @@
                             display: block;
                         }
 
+                        .no-border {
+                            border: none !important;
+                            padding: 0 !important;
+                            margin: 0 !important;
+                        }
+                        .no-border td, .no-border th {
+                            border: none !important;
+                            padding: 0 !important;
+                        }
+
                       </style>
 
                       <div class="div_general_encabezado">
@@ -191,28 +201,29 @@
                         <div>
                           <span>CUI de la persona que recibe</span>
                         </div>
-                    </div>
+                  </div>
 
 
                   <div>
-                    <br/>
-                    <hr/>
-                      <table style="width:100%">
-                        <tr style="text-align:center">
-                          <td><img src="/pkm/static/src/img/1.jpg" style="width:70%;"/></td>
-                          <td><img src="/pkm/static/src/img/2.jpg" style="width:60%;"/></td>
-                          <td><img src="/pkm/static/src/img/3.jpeg" style="width:65%;"/></td>
-                          <td><img src="/pkm/static/src/img/4.png" style="width:70%;"/></td>
-                        </tr>
-                       </table>
-                       <br/>
-                       <table style="width:100%">
-                        <tr style="text-align:center">
-                          <td><img src="/pkm/static/src/img/5.png" style="width:65%;"/></td>
-                          <td><img src="/pkm/static/src/img/6.jpg" style="width:70%;"/></td>
-                        </tr>
-                      </table>
-                  </div>
+                        <br/>
+                        <table style="width:100%" class="table-borderless">
+                            <tr class="text-center">
+                                <td><img src="/pkm/static/src/img/1.jpg" style="width:70%;"/></td>
+                                <td><img src="/pkm/static/src/img/2.jpg" style="width:60%;"/></td>
+                                <td><img src="/pkm/static/src/img/3.jpeg" style="width:65%;"/></td>
+                                <td><img src="/pkm/static/src/img/4.png" style="width:70%;"/></td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <table style="width:100%" class="table-borderless">
+                            <tr class="text-center">
+                                <td><img src="/pkm/static/src/img/5.png" style="width:65%;"/></td>
+                                <td><img src="/pkm/static/src/img/6.jpg" style="width:70%;"/></td>
+                            </tr>
+                        </table>
+                    </div>
+
+
               </div>
           </t>
       </t>
