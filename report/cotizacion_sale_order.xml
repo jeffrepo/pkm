@@ -201,11 +201,11 @@
 
                 </div>
                 <div class="footer">
-                    
+
                     <table style="width:100%" class="table-borderless">
                         <tr class="text-align:center">
                             <td><img src="/pkm/static/src/img/1.jpg" style="width:60%;"/></td>
-                            <td><img src="/pkm/static/src/img/2.jpg" style="width:50%;"/></td>
+                            <td><img src="/pkm/static/src/img/2.jpeg" style="width:50%;"/></td>
                             <td><img src="/pkm/static/src/img/3.jpeg" style="width:55%;"/></td>
                             <td><img src="/pkm/static/src/img/4.png" style="width:60%;"/></td>
                         </tr>
@@ -220,12 +220,12 @@
                     </table>
                     <br/>
                     <div>
-                        PKM Industrial, S.A. Kilómetro 23.6 Carretera al Salvador, Edificio Plaza Guadalupe, Of. No. 507 PBX: (502) 6633-9972
-                    </div>    
+                      PKM Industrial S.A. - PBX: 2375 2125  - Km 222.5 Carretera a el Salvador C.C. Plaza Guadalupe, Oficina 507 Guatemala, Centro América www.pkm-gua.com
+                    </div>
 
                 </div>
             </div>
-          </t> 
+          </t>
       </t>
   </template>
 </odoo>
