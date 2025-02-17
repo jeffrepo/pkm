@@ -154,7 +154,7 @@
                                     <t t-esc="l.product_id.default_code"/>
                                     </td>
                                     <td height="30" style="text-align:left">
-                                    <t t-esc="l.product_id.name"/>
+                                    <t t-esc="l.name"/>
                                     </td>
                                     <td height="30" style="text-align:right">
                                     <t t-esc="l.price_unit" t-options="{'widget': 'monetary', 'display_currency': o.company_id.currency_id}"/>
